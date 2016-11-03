@@ -2,16 +2,16 @@
 
 Objective - Build a replica of Conway's Game of Life using React.js.
 
-Requirements:
--when the game first loads, it will randomly generate a board and start playing
--user can control the start and stop of the board
--user can set up the board
--user can clear the board
--when the start button is clicked, the game will play out
--each time the board changes, I can see how many generations have gone by
+Requirements:  
+-when the game first loads, it will randomly generate a board and start playing  
+-user can control the start and stop of the board  
+-user can set up the board  
+-user can clear the board  
+-when the start button is clicked, the game will play out  
+-each time the board changes, I can see how many generations have gone by  
 
-HINTS:
--here's an explanation of Conway's Game of Life from John Conway himself: https://www.youtube.com/watch?v=E8kUJL04ELA
+HINTS:  
+-here's an explanation of Conway's Game of Life from John Conway himself: https://www.youtube.com/watch?v=E8kUJL04ELA  
 -here's an overview of Conway's Game of Life with rules for your reference: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 ---------------------------------------------------------------

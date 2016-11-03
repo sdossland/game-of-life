@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #b3bbcc;
+}
+
+/*---Title--- */
+.appTitle {
+  background: #14171f;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: normal;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.appTitle:hover {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.appTitle:active {
+  text-decoration: underline;
+}
+
+/*---game controls--- */
+.half-footer {
+  height: 40px !important;
+  line-height: 40px !important;
+}
+
+.btn-controls {
+  width: 125px !important;
+}
+
+.generations {
+  font-weight: bold;
+  margin: 0 10px 0 10px;
+  font-size: 16px;
+}
+
+.genCounter {
+  font-size: 16px;
+}
+
+/*---game board--- */
+.gameBoard {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  display: block;
+  border: 10px solid #fff;
+  margin-bottom: 10px;
+}
+
+/*---cell--- */
+.cell {
+  width: 12px;
+  height: 12px;
+  display: block;
+  float: left;
+  background: #000;
+  border: 1px solid #fff;
+}
+
+.active {
+  width: 12px;
+  height: 12px;
+  display: block;
+  float: left;
+  background: red;
+  border: 1px solid #fff;
+}
+
+/*---options--- */
+.optTitle {
+  font-weight: bold;
+}
+
+.row {
+  margin: 0 15px 0 15px;
+  font-size: 16px;
+}
+
+.footers {
+  line-height: 40px !important;
+}
+
+.btn {
+  margin-left: 12px;
+  width: 150px;
+  height: 30px;
+  font-size: 16px;
+}
+
+/*---footer--- */
+.footer {
+  background: #fff;
+  border-radius: 15px;
+  width: 630px;
+  height: 80px;
+  line-height: 80px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 10px;
+}
+
+.footerText {
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding: 0 15px 0 15px;
+}

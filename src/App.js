@@ -181,8 +181,17 @@ var App = React.createClass({
           <a href="https://www.math.cornell.edu/~lipa/mec/lesson6.html" target="_blank">
             <h1 className="appTitle">ReactJS Game of Life (click to learn more)</h1>
           </a>
-          <GameControls start={this.state.start} startBtn={this.startBtn} resetBtn={this.resetBtn} clearBtn={this.clearBtn} genText={this.state.genText} />
-          <Gameboard noCubeWidth={this.state.noCubeWidth} noCubeHeight={this.state.noCubeHeight} sessionId={this.state.sessionId} cells={this.state.cells} setCell={this.setCell} countNeighbors={this.countNeighbors} />
+          <GameControls start={this.state.start}
+                        startBtn={this.startBtn}
+                        resetBtn={this.resetBtn}
+                        clearBtn={this.clearBtn}
+                        genText={this.state.genText} />
+          <Gameboard noCubeWidth={this.state.noCubeWidth}
+                     noCubeHeight={this.state.noCubeHeight}
+                     sessionId={this.state.sessionId}
+                     cells={this.state.cells}
+                     setCell={this.setCell}
+                     countNeighbors={this.countNeighbors} />
           <Options setDimensions={this.setDimensions} setSpeed={this.setSpeed} />
           <div className="footer">
             <span className="footerText">Feel free to add cells while it's running. The cells in light red are younger, dark red are older. Enjoy!</span>

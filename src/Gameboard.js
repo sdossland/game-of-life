@@ -22,7 +22,12 @@ var Gameboard = React.createClass({
             <div className="gameBoard" style={{height: gameboardHeight, width: gameboardWidth}}>
                 {this.props.cells.map(function(row) {
                     return row.map(function(cell) {
-                        return (<Cell key={cell.row + '_' + cell.key} toggleCell={toggleCell(cell.key, cell.row)} row={cell.row} column={cell.key} isActive={cell.isActive} sessionId={sessionId} />);
+                        return (<Cell key={cell.row + '_' + cell.key}
+                                      toggleCell={toggleCell(cell.key, cell.row)}
+                                      row={cell.row} column={cell.key}
+                                      isActive={cell.isActive}
+                                      sessionId={sessionId}
+                        />);
                     });
                 })}
             </div>
